@@ -12,7 +12,7 @@ import Recipe from "./pages/Recipe";
 import Pizza from "./pages/Pizza";
 import Burger from "./pages/Burger";
 import Chicken from "./pages/Chicken";
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "https://recipe-app-o8nj.onrender.com";
 axios.defaults.withCredentials = true;
 function App() {
   return (
