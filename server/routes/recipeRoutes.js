@@ -7,7 +7,7 @@ const dotenv = require("dotenv").config();
 router.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://recipe-web-app19.vercel.app",
   })
 );
 router.get("/recipes", (req, res) => {
