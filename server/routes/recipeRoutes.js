@@ -7,7 +7,7 @@ const dotenv = require("dotenv").config();
 router.use(
   cors({
     credentials: true,
-    origin: "https://recipe-web-app19.vercel.app",
+    origin: "https://recipe-web-app999.netlify.app",
   })
 );
 router.get("/recipes", (req, res) => {
