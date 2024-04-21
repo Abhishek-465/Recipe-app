@@ -15,7 +15,7 @@ function Recipe() {
 
   const fetchRecipes = () => {
     setLoading(true); // Set loading to true when fetching data
-    fetch(`http://localhost:8000/recipes?query=${userInput}`)
+    fetch(`https://recipe-app-o8nj.onrender.com/recipes?query=${userInput}`)
       .then((response) => response.json())
       .then((data) => setRecipes(data))
       .then(() => setImage(`${userInput}`))
