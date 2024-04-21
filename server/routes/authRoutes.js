@@ -11,7 +11,10 @@ const {
 router.use(
   cors({
     credentials: true,
-    origin: "https://recipe-web-app999.netlify.app/",
+    origin: [
+      "https://recipe-web-app19.vercel.app",
+      "https://www.recipe-web-app19.vercel.app", // Add www subdomain if applicable
+    ],
   })
 );
 router.get("/", test);
