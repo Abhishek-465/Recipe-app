@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className={` bg-gradient-to-r from-orange-900 to-red-800 p-4`}>
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          {/* Company Name with React Icon */}
+          
           {user ? (
             <Link
               to="/dashboard"
