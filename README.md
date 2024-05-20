@@ -28,6 +28,6 @@ https://github.com/Abhishek-465/Recipe-app/assets/127030695/efa02357-31e4-49a8-9
 
 ## Tech Stack
 
-- Frontend: React, Tailwind CSS, Vite
+- Frontend: React, Tailwind CSS, Vite, Animate.CSS
 - Backend: Node.js, Express, MongoDB
 - Authentication: JWT, bcrypt
